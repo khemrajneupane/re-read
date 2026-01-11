@@ -26,9 +26,8 @@ const nextConfig = {
       { protocol: 'https', hostname: 'js.stripe.com' },
       { protocol: 'https', hostname: 'q.stripe.com' }, // Required for Stripe elements
       { protocol: 'https', hostname: 'files.stripe.com' }, // For Stripe file uploads
-      { protocol: 'http', hostname: 'localhost' }, // For local
       { protocol: 'https', hostname: process.env.CLOUDFLARE_IMAGE_URL }, // For CLOUDFLARE
-      { protocol: 'https', hostname: 're-read-books.vercel.app' }, // For CLOUDFLARE
+      { protocol: 'https', hostname: 'used-books.netlify.app' }, // For CLOUDFLARE
     ],
   },
   reactStrictMode: true,
